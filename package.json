@@ -1,0 +1,108 @@
+{
+    "name": "biteme",
+    "version": "1.1.1",
+    "description": "biteme: An Ionic project",
+    "dependencies": {
+        "@ionic-native/in-app-purchase": "^4.2.1",
+        "call-number": "https://github.com/Rohfosho/CordovaCallNumberPlugin.git",
+        "cc.fovea.cordova.purchase": "git://github.com/j3k0/PhoneGap-InAppPurchase-iOS.git",
+        "com-badrit-base64": "https://github.com/hazemhagrass/phonegap-base64",
+        "com-sarriaroman-photoviewer": "~1.1.10",
+        "com.phonegap.plugins.PushPlugin": "https://github.com/phonegap-build/PushPlugin.git",
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-actionsheet": "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet.git",
+        "cordova-plugin-calendar": "^4.6.0",
+        "cordova-plugin-camera": "^2.3.1",
+        "cordova-plugin-console": "~1.0.5",
+        "cordova-plugin-crop": "~0.1.0",
+        "cordova-plugin-device": "~1.1.4",
+        "cordova-plugin-dialogs": "^2.0.0",
+        "cordova-plugin-facebook4": "~1.7.3",
+        "cordova-plugin-file-transfer": "~1.6.1",
+        "cordova-plugin-filepath": "~1.0.2",
+        "cordova-plugin-geolocation": "~2.4.1",
+        "cordova-plugin-globalization": "~1.0.5",
+        "cordova-plugin-googleplus": "^5.1.1",
+        "cordova-plugin-image-picker": "https://github.com/wymsee/cordova-imagePicker.git",
+        "cordova-plugin-splashscreen": "~4.0.1",
+        "cordova-plugin-statusbar": "~2.2.1",
+        "cordova-plugin-whitelist": "~1.3.1",
+        "cordova-plugin-x-socialsharing": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+        "gulp": "^3.5.6",
+        "gulp-concat": "^2.2.0",
+        "gulp-minify-css": "^0.3.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^2.0.4",
+        "ionic": "^3.4.0",
+        "ionic-img-viewer": "^1.2.1",
+        "ionic-plugin-keyboard": "~2.2.1",
+        "ng-infinite-scroll": "^1.3.0",
+        "plugin": "^0.3.3",
+        "twitter-connect-plugin": "^0.6.0",
+        "uk.co.workingedge.phonegap.plugin.launchnavigator": "^4.1.2"
+    },
+    "devDependencies": {
+        "bower": "^1.3.3",
+        "gulp-util": "^2.2.14",
+        "shelljs": "^0.3.0"
+    },
+    "cordovaPlugins": [
+        {
+            "variables": {
+                "SENDER_ID": "953848896225"
+            },
+            "locator": "phonegap-plugin-push"
+        },
+        "cordova-plugin-whitelist",
+        "cordova-plugin-console",
+        "cordova-plugin-statusbar",
+        "cordova-plugin-device",
+        "cordova-plugin-splashscreen",
+        "ionic-plugin-keyboard",
+        "phonegap-plugin-push"
+    ],
+    "cordovaPlatforms": [],
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-crop": {},
+            "cordova-plugin-facebook4": {
+                "APP_ID": "1548272795197171",
+                "APP_NAME": "biteme"
+            },
+            "cordova-plugin-calendar": {
+                "CALENDAR_USAGE_DESCRIPTION": " "
+            },
+            "uk.co.workingedge.phonegap.plugin.launchnavigator": {},
+            "cordova-plugin-googleplus": {
+                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.1038437502145-v8fbupqdn9dbd2htgmpe7t99rgvi1mi4"
+            },
+            "twitter-connect-plugin": {
+                "FABRIC_KEY": "30c29c81292d1f0e32d265911586f936957dad15"
+            },
+            "call-number": {},
+            "com-badrit-base64": {},
+            "com-sarriaroman-photoviewer": {},
+            "com.phonegap.plugins.PushPlugin": {},
+            "cordova-plugin-actionsheet": {},
+            "cordova-plugin-camera": {
+                "CAMERA_USAGE_DESCRIPTION": "The app would like to access the camera when you attach photos to content.",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": "The app would like to access the photo library when you attach images to content."
+            },
+            "cordova-plugin-console": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-filepath": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-globalization": {},
+            "cordova-plugin-image-picker": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-x-socialsharing": {},
+            "ionic-plugin-keyboard": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    }
+}
